@@ -70,6 +70,9 @@ public final class DragonesYMazmorras extends JuegoAzar{
             return "acierto";
         else
             return "fallo";
+        
+        if(numAle==1)
+            return "¡Aumentas tu fuerza en 1 punto!"
     }
 
     /**
