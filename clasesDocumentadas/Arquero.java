@@ -16,23 +16,15 @@ package clasesDocumentadas;
  */
 public class Arquero extends Personaje implements Cloneable{
     /**
-     * <strong>Constructor con parámetros</strong>
-     * para crear un objeto <strong>Arquero</strong>.
-     * Llama al constructor de la clase padre<i>Personaje</i>.
-     * @param nombre asigna un valor para el atributo <i>nombre</i> del objeto <i>Arquero</i>.
-     * @param arma asigna un valor para el atributo <i>arma</i> del objeto <i>Arquero</i>.
-     * @param vida asigna un valor para el atributo <i>vida</i> del objeto <i>Arquero</i>.
-     * @param fuerza asigna un valor para el atributo <i>fuerza</i> del objeto <i>Arquero</i>.
+     * ESTO ES O QUE HE MODIFICADO PARA PRACTICAR LA RAMA "miRamaNueva"
      */
     Arquero(String nombre,String arma,double vida, double fuerza)
     {
         super(nombre,arma,vida*1.5,fuerza*0.15);
     }
 
-    /**
-     * Método que indica el número de flechas tiradas.
-     * @param num valor para la cantidad de flechas tiradas.
-     * @return el resultado de multiplicar la <i>fuerza</i> por el número de flechas tiradas.
+     /**
+     * ESTO ES O QUE HE MODIFICADO PARA PRACTICAR LA RAMA "miRamaNueva"
      */
     public double tirarFlechas(int num)
     {
